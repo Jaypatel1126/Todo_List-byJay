@@ -120,8 +120,8 @@ npm run build
 
 **Jay Patel**
 
-Computer Engineering Student – Gujarat Technological University (GTU)
-MERN Stack Developer
+Computer Engineering Student – Gujarat Technological University (GTU)  
+MERN Stack Developer  
 Ahmedabad, India
 
 GitHub:  

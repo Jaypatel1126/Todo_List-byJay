@@ -1,0 +1,168 @@
+.todo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  padding-top: 3%;
+  background: linear-gradient(120deg, #f0f4f8, #d9e2ec);
+  color: #1b1b1b;
+  transition: 0.3s linear;
+  overflow: hidden;
+}
+
+.header,
+.form,
+.datetime {
+  margin: 0 1rem;
+  width: 100%;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 3rem;
+  min-height: 25vh;
+  width: 100%;
+}
+
+section h1 {
+  color: #334e68;
+  font-size: 4.8rem;
+  text-align: center;
+}
+
+.date-time {
+  font-size: 2.4rem;
+  text-align: center;
+  color: #627d98;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px 0;
+  padding: 0.8rem;
+  font-size: 1.7rem;
+  width: 100%;
+}
+
+form input {
+  width: 100%;
+  max-width: 500px;
+  padding: 10px;
+  font-size: 1.8rem;
+  letter-spacing: 0.1rem;
+  border: none;
+  outline: none;
+  border-top-left-radius: 17px;
+  border-bottom-left-radius: 17px;
+  background-color: #ffffff;
+  color: #334e68;
+  transition: background-color 0.2s ease-in-out;
+}
+
+form input:hover {
+  cursor: text;
+}
+
+form input::placeholder {
+  color: #627d98;
+  opacity: 0.7;
+}
+
+form button {
+  min-width: 100px;
+  padding: 10.8px;
+  font-size: 1.7rem;
+  border: none;
+  outline: none;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: #89c4f4;
+  color: #ffffff;
+  transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease;
+}
+
+form button:hover {
+  cursor: pointer;
+  background-color: #f6b93b;
+}
+
+.myUnOrdList {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
+}
+
+.todo-list {
+  list-style: none;
+  min-width: 25%;
+  padding: 0;
+}
+
+.todo-item {
+  display: grid;
+  grid-template-columns: 1fr 0.3fr 0.3fr;
+  gap: 1.6rem;
+  justify-content: start;
+  margin: 2.4rem 0;
+  padding: 1.6rem 3rem;
+  font-size: 2rem;
+  background-color: #ffffff;
+  color: #334e68;
+  border-radius: 30px;
+  overflow-wrap: anywhere;
+  transition: background-color 0.2s ease-in-out;
+}
+
+li span {
+  max-width: 20rem;
+  color: #334e68;
+}
+
+.check-btn,
+.delete-btn {
+  width: 3rem;
+  height: 3rem;
+  font-size: 2.4rem;
+  border-radius: 50%;
+  margin: 0 5px;
+  cursor: pointer;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  color: #fff;
+}
+
+.check-btn {
+  background-color: #38ada9;
+}
+
+.delete-btn {
+  background-color: #eb2f06;
+}
+
+.checkList {
+  text-decoration: line-through;
+  color: #95a5a6;
+}
+
+.notCheckList {
+  text-decoration: none;
+  color: #334e68;
+}
+
+.clear-btn {
+  font-size: 1.6rem;
+  padding: 1rem 2.2rem;
+  border-radius: 0.3rem;
+  background-color: #eb2f06;
+  transition: background-color 0.2s ease;
+  color: #ffffff;
+}
+
+.clear-btn:hover {
+  background-color: #c0392b;
+}
